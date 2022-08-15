@@ -1,4 +1,4 @@
-module osv-detector
+module github.com/another-rex/osv-detector
 
 go 1.17
 
