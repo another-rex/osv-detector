@@ -10,11 +10,12 @@ import (
 	"net/http"
 	"net/http/httptest"
 	"os"
-	"osv-detector/pkg/database"
 	"path/filepath"
 	"reflect"
 	"sort"
 	"testing"
+
+	"github.com/another-rex/osv-detector/pkg/database"
 )
 
 func expectDBToHaveOSVs(

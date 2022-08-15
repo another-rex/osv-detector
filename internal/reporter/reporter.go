@@ -4,10 +4,11 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/fatih/color"
 	"io"
-	"osv-detector/pkg/database"
-	"osv-detector/pkg/lockfile"
+
+	"github.com/another-rex/osv-detector/pkg/database"
+	"github.com/another-rex/osv-detector/pkg/lockfile"
+	"github.com/fatih/color"
 )
 
 type Reporter struct {

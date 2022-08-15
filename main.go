@@ -3,16 +3,17 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/fatih/color"
 	"io"
 	"os"
-	"osv-detector/internal"
-	"osv-detector/internal/configer"
-	"osv-detector/internal/reporter"
-	"osv-detector/pkg/database"
-	"osv-detector/pkg/lockfile"
 	"path"
 	"sort"
+
+	"github.com/another-rex/osv-detector/internal"
+	"github.com/another-rex/osv-detector/internal/configer"
+	"github.com/another-rex/osv-detector/internal/reporter"
+	"github.com/another-rex/osv-detector/pkg/database"
+	"github.com/another-rex/osv-detector/pkg/lockfile"
+	"github.com/fatih/color"
 )
 
 // these come from goreleaser
@@ -623,7 +624,6 @@ This flag can be passed multiple times to ignore different vulnerabilities`)
 
 			continue
 		}
-
 
 		ignores := make(
 			[]string,

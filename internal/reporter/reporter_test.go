@@ -4,10 +4,11 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"osv-detector/internal/reporter"
-	"osv-detector/pkg/database"
 	"strings"
 	"testing"
+
+	"github.com/another-rex/osv-detector/internal/reporter"
+	"github.com/another-rex/osv-detector/pkg/database"
 )
 
 type TestResult struct {

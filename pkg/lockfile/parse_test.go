@@ -3,10 +3,11 @@ package lockfile_test
 import (
 	"errors"
 	"io/ioutil"
-	"osv-detector/pkg/lockfile"
 	"reflect"
 	"strings"
 	"testing"
+
+	"github.com/another-rex/osv-detector/pkg/lockfile"
 )
 
 func expectNumberOfParsersCalled(t *testing.T, numberOfParsersCalled int) {

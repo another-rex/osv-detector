@@ -4,13 +4,14 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
-	"osv-detector/internal"
-	"osv-detector/pkg/lockfile"
-	"osv-detector/pkg/semantic"
 	"regexp"
 	"strings"
 	"time"
 	"unicode"
+
+	"github.com/another-rex/osv-detector/internal"
+	"github.com/another-rex/osv-detector/pkg/lockfile"
+	"github.com/another-rex/osv-detector/pkg/semantic"
 )
 
 type AffectsRangeType string

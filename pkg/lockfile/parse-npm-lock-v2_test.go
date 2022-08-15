@@ -1,8 +1,9 @@
 package lockfile_test
 
 import (
-	"osv-detector/pkg/lockfile"
 	"testing"
+
+	"github.com/another-rex/osv-detector/pkg/lockfile"
 )
 
 func TestParseNpmLock_v2_FileDoesNotExist(t *testing.T) {

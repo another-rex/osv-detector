@@ -1,9 +1,9 @@
 module github.com/another-rex/osv-detector
 
-go 1.17
+go 1.18
 
 require (
-	github.com/BurntSushi/toml v1.0.0
+	github.com/BurntSushi/toml v1.2.0
 	github.com/fatih/color v1.13.0
 	golang.org/x/mod v0.5.1
 	gopkg.in/yaml.v2 v2.4.0

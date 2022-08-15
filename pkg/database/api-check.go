@@ -9,8 +9,9 @@ import (
 	"io"
 	"math"
 	"net/http"
-	"osv-detector/internal"
 	"path"
+
+	"github.com/another-rex/osv-detector/internal"
 )
 
 func (db APIDB) buildAPIPayload(pkg internal.PackageDetails) apiQuery {

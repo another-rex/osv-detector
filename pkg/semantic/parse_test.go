@@ -4,9 +4,10 @@ import (
 	"bufio"
 	"fmt"
 	"os"
-	"osv-detector/pkg/semantic"
 	"strings"
 	"testing"
+
+	"github.com/another-rex/osv-detector/pkg/semantic"
 )
 
 func versionsEqual(expectedVersion semantic.Version, actualVersion semantic.Version) bool {

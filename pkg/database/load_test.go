@@ -2,8 +2,9 @@ package database_test
 
 import (
 	"errors"
-	"osv-detector/pkg/database"
 	"testing"
+
+	"github.com/another-rex/osv-detector/pkg/database"
 )
 
 func TestLoad(t *testing.T) {

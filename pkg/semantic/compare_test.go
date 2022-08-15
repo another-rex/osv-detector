@@ -1,8 +1,9 @@
 package semantic_test
 
 import (
-	"osv-detector/pkg/semantic"
 	"testing"
+
+	"github.com/another-rex/osv-detector/pkg/semantic"
 )
 
 func compareWord(t *testing.T, result int) string {

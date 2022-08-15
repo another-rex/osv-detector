@@ -2,9 +2,10 @@ package database_test
 
 import (
 	"errors"
-	"osv-detector/pkg/database"
 	"reflect"
 	"testing"
+
+	"github.com/another-rex/osv-detector/pkg/database"
 )
 
 func TestNewDirDB(t *testing.T) {

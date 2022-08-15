@@ -1,13 +1,13 @@
 package database
 
 import (
-	"osv-detector/internal"
+	"github.com/another-rex/osv-detector/internal"
 )
 
 // an OSV database that lives in-memory, and can be used by other structs
 // that handle loading the vulnerabilities from where ever
 type memDB struct {
-	vulnerabilities  []OSV
+	vulnerabilities []OSV
 }
 
 func (db *memDB) Vulnerabilities(includeWithdrawn bool) []OSV {

@@ -3,13 +3,14 @@ package configer
 import (
 	"errors"
 	"fmt"
-	"gopkg.in/yaml.v2"
 	"net/url"
 	"os"
-	"osv-detector/internal/reporter"
-	"osv-detector/pkg/database"
 	"path"
 	"strings"
+
+	"github.com/another-rex/osv-detector/internal/reporter"
+	"github.com/another-rex/osv-detector/pkg/database"
+	"gopkg.in/yaml.v2"
 )
 
 type rawDatabaseConfig struct {

@@ -2,9 +2,10 @@ package database_test
 
 import (
 	"net/url"
-	"osv-detector/pkg/database"
 	"reflect"
 	"testing"
+
+	"github.com/another-rex/osv-detector/pkg/database"
 )
 
 func TestNewAPIDB(t *testing.T) {

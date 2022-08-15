@@ -2,9 +2,10 @@ package lockfile_test
 
 import (
 	"io/ioutil"
-	"osv-detector/pkg/lockfile"
 	"strings"
 	"testing"
+
+	"github.com/another-rex/osv-detector/pkg/lockfile"
 )
 
 func numberOfLockfileParsers(t *testing.T) int {

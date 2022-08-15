@@ -4,7 +4,8 @@ import (
 	"errors"
 	"fmt"
 	"net/url"
-	"osv-detector/internal"
+
+	"github.com/another-rex/osv-detector/internal"
 )
 
 type APIDB struct {

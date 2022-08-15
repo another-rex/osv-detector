@@ -5,11 +5,12 @@ import (
 	"errors"
 	"net/http"
 	"net/http/httptest"
-	"osv-detector/internal"
-	"osv-detector/pkg/database"
-	"osv-detector/pkg/lockfile"
 	"reflect"
 	"testing"
+
+	"github.com/another-rex/osv-detector/internal"
+	"github.com/another-rex/osv-detector/pkg/database"
+	"github.com/another-rex/osv-detector/pkg/lockfile"
 )
 
 type objectsWithIDs = []database.ObjectWithID
